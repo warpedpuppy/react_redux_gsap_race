@@ -1,0 +1,7 @@
+.racer {
+	border-radius: 50%;
+	background-color: blue;
+	width:30px;
+	height:30px;
+	position:absolute;
+}

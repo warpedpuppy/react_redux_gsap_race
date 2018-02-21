@@ -1,0 +1,28 @@
+.stage {
+	border:1px solid black;
+	position: relative;
+	width:500px;
+	margin:0 auto;
+}
+.curtain {
+	position: absolute;
+	top:0;
+	border:1px solid black;
+	width:50%;
+	height:100%;
+	transition: ;
+}
+.curtain:first-child {
+	left:0;
+	transition: left 1s;
+}
+.curtain:nth-child(2) {
+	right:0;
+	transition: right 1s;
+}
+.curtain.active:first-child {
+	left:-50%;
+}
+.curtain.active:nth-child(2) {
+	right:-50%;
+}
